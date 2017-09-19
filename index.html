@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="css/bootstrap.css" type="text/css" rel="stylesheet">
+    <link href="css/styles.css" type="text/css" rel="stylesheet">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Reveal your future...</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Take the quiz below to find out what awaits...</h2>
+      </div>
+      <form class="fortune" action="index.html" method="post">
+        <p><em>"Check all that apply"</em></p>
+        <input type="checkbox" name="unlucky" value="black-cat">A black cat crossed my path</br>
+        <input type="checkbox" name="unlucky" value="under-ladder">I walked under a ladder</br>
+        <input type="checkbox" name="unlucky" value="broke-mirror">I broke a mirror</br>
+        <input type="checkbox" name="unlucky" value="open-umbrella">I opened an umbrella inside</br>
+        <input type="checkbox" name="lucky" value="clover">I found a four-leaf clover</br>
+        <input type="checkbox" name="lucky" value="penny">Found a penny that was head's up</br>
+        <input type="checkbox" name="lucky" value="lotto">I won a significant amount of money in the lottery</br>
+      <button type="submit" name="button">Reveal my future...</button>
+      </form>
+
+      <div class=results-lucky>
+        <h2>CONGRATS!!</h2>
+        <p>You will be <strong>VERY LUCKY</strong>! Good for you! Keep up the good luck.</p>
+      </div>
+
+      <div class=results-unlucky>
+        <h2>We're very sorry...</h2>
+        <p>It looks like your luck has taken a turn for the worse. It's probably best to stay inside for a while.</p>
+      </div>
+
+      <div class=results-neutral>
+        <h2>Wow, look at you - perfectly even luck!</h2>
+        <p>You've faced some difficult situations, but were able to change your luck around. Or your life is boring and nothing happens. Either way, it's better than bad luck, right?</p>
+      </div>
+
+    </div>
+  </body>
+</html>
